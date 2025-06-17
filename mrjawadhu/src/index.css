@@ -1,0 +1,111 @@
+/* .ones{ */
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: center; */
+  /* cursor: pointer; */
+      /* margin-top: 3%;   */
+/* } */
+.suggestion-card{
+      cursor: pointer;
+padding: 15px;
+}
+body{
+      background-color: #e5e6f2;
+      color: #323250;
+      height: 100vh;
+}
+.card-footer{
+      position: sticky;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+
+.findc{
+      padding-top: 10%;
+      /* height: 100vh; */
+      margin-top: -5%;
+}
+
+.user-repone-messages{
+   text-align: right;
+   max-width: 50%;
+   padding: 10px 10px;
+   margin: 10px 10px;
+   background-color: #828286;
+   color: white;
+   border-radius: 3px;
+}
+.AI-repone-messages{
+      text-align: left;
+      border-radius: 3px;
+      max-width: 50%;
+      padding: 10px 10px;
+      margin: 10px 10px;
+      background-color: rgb(207, 133, 197);
+      color: white;
+}
+.chatBot-body{
+height: calc(100vh -200px);
+overflow: auto;
+}
+.papers{
+display: grid;
+align-items: center;
+justify-content: center;
+/* object-fit: cover; */
+/* width: 400px; */
+
+/* background-color: rgb(124, 98, 72); */
+/* margin-top: 5%; */
+margin: 3%;
+}
+/* display:"flex",
+      alignItems:"center",
+      justifyContent:"center",
+      marginTop:"5%", */
+
+      .holeLogin{
+            margin: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
+      @media screen and (max-width:960px) {
+            .holeLogin{
+            margin: 10%;
+            transition: 50% 50%;
+            /* padding-left: auto 2.5rem;
+             */
+            /* padding-right: 10px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
+      }
+
+      @media (max-width:960px) {
+        .papers{
+            /* margin: 1% 1% 1% 1%; */
+            transition: -50% 50%;
+             margin: 3%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            /* width: 300px; */
+            
+            
+
+
+}
+
+.input{
+      width: 100%;
+      /* margin-top: 10px; */
+}
+
+        
+      }
